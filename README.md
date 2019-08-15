@@ -1,10 +1,13 @@
 # RepairConsole
-This is a console made to log repairs onto a sql database.
+This is a console made to log audio equipment repairs onto a sql database.
 The intended use-case is for technicians who want a simple way to log their repairs onto a remote database.
+Future versions will extend configurability.
 
 -Usage
+
 The python file in this repository has no database information in it. You must add your own to the add_db() function.
 Later this will be changed so that it can read the necessary information from a file.
+
 
 It can be run using IDLE, or compiled for portabilities sake. I've had the best luck with Nuitka using the Visual Studio Compiler.
 To compile it on windows, install Nuitka and Visual Studio and run the command:
